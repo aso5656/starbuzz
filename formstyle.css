@@ -1,0 +1,43 @@
+body{
+    background: #f0deb8 url(images/background.gif);
+    
+    margin: 10px auto 0px auto;
+    
+    
+}
+h1, h2{
+    text-align: center;
+}
+form{
+    
+    margin: 10px auto 30px auto;
+    display: table;
+   
+    background:#f0deb8;
+    padding: 20px;
+}
+div.tableRow{
+    display: table-row;
+}
+div.tableRow p{
+    display: table-cell;
+    padding: 5px;
+    
+}
+
+div.tableRow p:first-child{
+    text-align: right;
+    vertical-align: top;
+}
+
+p.heading{
+    font-weight: bold;
+}
+
+textarea{
+    width: 200px;
+    height: 80px;
+}
+label{
+    font-weight: bolder;
+}

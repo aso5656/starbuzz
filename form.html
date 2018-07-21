@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+    <link rel="stylesheet" type="text/css" href="starbuzz.css">
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo" src="images/headerlogo2.gif" alt="Starbuzz Coffee header image">
+      <img id="slogan" src="images/headerlogo.gif" alt="Starbuzz Coffee header image">
+    </div>
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click submit to order</h2>
+    <form action="http://starbuzzcoffee.com/processorder.php" method="POST" >
+    
+    <div class="tableRow">  
+     
+      <p> Choose your beans:</p>
+      <p>
+         <select name="beans">
+         <option value="House Blend">House Blend</option>
+        <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+        <option value="Guatemala">Organic Guatemala</option>
+        <option value="Kenya">Kenya</option>
+      </select>
+    </p>
+  </div>
+  <div class="tableRow">
+    <p>Type:</p>
+      <p><input type="radio" name="beantype" value="whole">Whole Bean<br>
+      <input type="radio" name="beantype" value="ground" checked>Ground
+     </p>
+  </div>
+  <div class="tableRow">
+    <p>
+      Number of bags:
+    </p>
+    <p><input type="number" name="bags" min="1" max="24" ></p>
+  </div>
+  <div class="tableRow">
+    <p>
+      Must arrive by date:
+    </p>
+    <p><input type="date" name="date"></p>
+  </div>
+  <div class="tableRow">
+    <p>Extras:</p>
+      <input type="checkbox" name="extras[]" value="giftwrap" checked>Gift wrap<br>
+      <input type="checkbox" name="extras[]" value="catalog">Including catalog<br>
+    </p>
+  </div>
+  <div class="tableRow">
+  
+          <p class="heading">
+          Ship to:</p>
+        <p></p></div>
+      </div>
+      <div class="tableRow">
+       <p>Name:</p> 
+          <p><input type="text" name="name" value=""></p>
+        </div>
+        <div class="tableRow">
+        <p>Address:</p>
+          <P><input type="text" name="address" value=""></P>
+        </div>
+        <div class="tableRow">
+        <p>City:</p>
+        <p><input type="text" name="city" value=""></p>
+        </div>
+        <div class="tableRow">
+        <p>State:</p>
+          <P><input type="text" name="state" value=""></P>
+        </div>
+        <div class="tableRow">
+        <P>Zip:</P>
+         <p> <input type="text" name="zip" value=""></p>
+        </div>
+        <div class="tableRow">
+         <p>Phone:</p>
+         <p><input type="tel" name="phone" value=""></p>
+         </div>
+         <div class="tableRow">
+    <p>
+      Comments:</p>
+      <p><textarea  name="comments"></textarea></p>
+    </p>
+  </div>
+  <div class="tableRow">
+    <p></p>
+    <p>
+      <input type="submit" value="Order now">
+    </p>
+  </div>
+    </form>
+    <div id="coupon">
+        <a href="freecoffee.html" title="Click to get one coffee free">
+        <img src="images/ticket.gif">
+      </a>
+      </div>
+      
+    <div id="footer">
+      &copy; 2012, Starbuzz Coffee
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+    </div>
+
+
+  </body>
+</html>
+

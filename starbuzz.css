@@ -4,7 +4,9 @@ body {
   font-size:        small;
   margin:           0px;
 }
-
+td.price{
+  padding-left: 35px;
+}
 #tableContainer {
   display: table;
   border-spacing: 10px;
