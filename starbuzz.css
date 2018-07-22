@@ -2,7 +2,7 @@ body {
   background-color: #b5a789;
   font-family:      Georgia, "Times New Roman", Times, serif;
   font-size:        small;
-  margin:           0px;
+  margin:           0px 8% 0 8%;
 }
 td.price{
   padding-left: 35px;
@@ -48,7 +48,7 @@ ul{margin: 0;}
 #award{
 position: absolute;
 top: 30px;
-left: 365px;
+left: 40%;
 }
 
 #coupon{
